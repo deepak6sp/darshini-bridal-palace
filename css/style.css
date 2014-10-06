@@ -1,0 +1,202 @@
+/* css styles */
+body,html{
+	margin:0;
+	padding:0;
+}
+
+h3{
+	text-shadow: 5px 5px 5px #FF30E3;
+	color: #C0E5FF;
+	font-size: 30px;
+}
+
+h4{
+	color:#FF69B4;
+}
+#headerWrapper{
+	width:100%;
+	height:130px;
+}
+
+#header{
+	width:80%;
+	height:130px;
+	margin:0 auto;
+	padding-top:20px;
+}
+
+#logo{
+	float: left;
+	width: 150px;
+	height:100px;
+}
+
+#logo img{	
+	width: 150px;
+	height:100px;
+}
+
+#socialIcons{
+	float: left;
+	width:20%;
+	height:auto;
+}
+
+#socialIcons ul {
+	margin:0;
+	padding: 0;
+}
+
+.soc-circle{
+	display: inline-block;
+	list-style: none;
+	height: 30px;
+	overflow: hidden;
+}
+
+#navigationIcons{
+	float: right;
+	width:300px;
+	height:80px;
+}
+
+#navigationIcons ul {
+	margin:0;
+	padding: 1%;
+	text-align: center;
+}
+
+.nav-circle{
+	display: inline-block;
+	width:70px;
+	height:70px;
+	border-radius: 50%;
+	text-align:center;
+	line-height:4.5;
+	margin:5% 0;
+	font-size: 100%;
+	font-family: verdena;
+
+}
+
+.nav-circle a{
+	text-shadow: none;
+	text-decoration: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	text-transform: none;
+	font-family: 'Open Sans', sans-serif;
+	color: #1a1a1a;
+}
+
+.nav-circle:hover{
+	background-color: #FF69B4;
+	opacity: .8;
+}
+
+#mainContent{
+	background-color: black;
+	height:auto;
+	width:100%;
+}
+
+/* --------- index page -------- */
+
+#slider{
+	clear:both;
+	border: 1px solid black;
+	width:100%;
+	height:auto;
+	background-color: black;
+}
+
+/*kwicks */
+.kwicks {
+    height: 400px;
+    width: 80%;
+    margin:4% auto 0;
+
+}
+.kwicks > li {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    opacity: .7;
+    border-radius: 2px;
+}
+
+.kwicks > li:hover {
+    opacity: 1;
+}
+
+#panel-1 { background-image: url("../img/girl1.jpg"); }
+#panel-2 { background-image: url("../img/girl2.jpg"); }
+#panel-3 { background-image: url("../img/girl3.jpg"); }
+#panel-4 { background-image: url("../img/girl1.jpg"); }
+#panel-5 { background-image: url("../img/girl2.jpg"); }
+
+
+/*------*/
+
+#about{
+	color: #C0E5FF;
+	font-family: verdena;
+	font-size: 16px;
+	width:80%;
+	margin:5% auto;
+	line-height: 1.5;
+}
+
+#about span{
+	font-weight: bold;
+}
+
+/* ------ end index page ----------*/
+
+/* -------services page ----------- */
+
+#mainContent ul{
+	width:84%;
+	margin:0 auto;
+	padding-top: 1%;
+}
+
+#mainContent ul li{
+	display: inline-block;
+	background-color: #FFF6D4;
+	width: 20%;
+	border-radius: 5px;
+	margin-left: 2%;
+	margin-bottom: 5%;
+	padding: 3% 5% 0 5%;
+	height: 400px;
+}
+
+#mainContent ul li img{
+	width:100%;
+	height: 50%;
+	border:1px solid red;
+	border-radius: 5px;
+}
+
+
+/* --------end services page ------ */
+
+#footer{
+	width:80%;
+	height:50px;
+	margin:0 auto;
+}
+
+#designerInfo{
+	float: left;
+}
+#footer-socialIcons{
+	float: right;
+	height:auto;
+}
